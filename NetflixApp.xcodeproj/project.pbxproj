@@ -24,6 +24,9 @@
 		C54359AE28A3A17C004C3252 /* Download_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54359AD28A3A17C004C3252 /* Download_ViewController.swift */; };
 		C54359AF28A3A17C004C3252 /* Download_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54359AD28A3A17C004C3252 /* Download_ViewController.swift */; };
 		C54359B028A3A17C004C3252 /* Download_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54359AD28A3A17C004C3252 /* Download_ViewController.swift */; };
+		C54359B628ACCED8004C3252 /* Navbar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */; };
+		C54359B728ACCED8004C3252 /* Navbar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */; };
+		C54359B828ACCED8004C3252 /* Navbar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 		C54359A528A39FF7004C3252 /* HomeTabBarViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		C54359A928A3A156004C3252 /* Home_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_ViewController.swift; sourceTree = "<group>"; };
 		C54359AD28A3A17C004C3252 /* Download_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download_ViewController.swift; sourceTree = "<group>"; };
+		C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 				C54359A528A39FF7004C3252 /* HomeTabBarViewControllerTableViewController.swift */,
 				C54359A928A3A156004C3252 /* Home_ViewController.swift */,
 				C54359AD28A3A17C004C3252 /* Download_ViewController.swift */,
+				C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54359B628ACCED8004C3252 /* Navbar_ViewController.swift in Sources */,
 				C54359AE28A3A17C004C3252 /* Download_ViewController.swift in Sources */,
 				C543597928A39B9D004C3252 /* ViewController.swift in Sources */,
 				C543597528A39B9D004C3252 /* AppDelegate.swift in Sources */,
@@ -293,6 +299,7 @@
 				C543598C28A39BA2004C3252 /* NetflixAppTests.swift in Sources */,
 				C54359AB28A3A156004C3252 /* Home_ViewController.swift in Sources */,
 				C54359AF28A3A17C004C3252 /* Download_ViewController.swift in Sources */,
+				C54359B728ACCED8004C3252 /* Navbar_ViewController.swift in Sources */,
 				C54359A728A39FF7004C3252 /* HomeTabBarViewControllerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +310,7 @@
 			files = (
 				C54359A828A39FF7004C3252 /* HomeTabBarViewControllerTableViewController.swift in Sources */,
 				C543599628A39BA2004C3252 /* NetflixAppUITests.swift in Sources */,
+				C54359B828ACCED8004C3252 /* Navbar_ViewController.swift in Sources */,
 				C54359B028A3A17C004C3252 /* Download_ViewController.swift in Sources */,
 				C543599828A39BA2004C3252 /* NetflixAppUITestsLaunchTests.swift in Sources */,
 				C54359AC28A3A156004C3252 /* Home_ViewController.swift in Sources */,
