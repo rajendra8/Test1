@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50219CC28D0645A0009FEE4 /* Home_ViewcontrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50219CB28D0645A0009FEE4 /* Home_ViewcontrollerTests.swift */; };
 		C543597528A39B9D004C3252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C543597428A39B9D004C3252 /* AppDelegate.swift */; };
 		C543597728A39B9D004C3252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C543597628A39B9D004C3252 /* SceneDelegate.swift */; };
 		C543597928A39B9D004C3252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C543597828A39B9D004C3252 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		C54359B628ACCED8004C3252 /* Navbar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */; };
 		C54359B728ACCED8004C3252 /* Navbar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */; };
 		C54359B828ACCED8004C3252 /* Navbar_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */; };
+		C558ED6428CF2D570034C318 /* Search_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C558ED6328CF2D570034C318 /* Search_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C50219CB28D0645A0009FEE4 /* Home_ViewcontrollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_ViewcontrollerTests.swift; sourceTree = "<group>"; };
 		C543597128A39B9D004C3252 /* NetflixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C543597428A39B9D004C3252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C543597628A39B9D004C3252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 		C54359A928A3A156004C3252 /* Home_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_ViewController.swift; sourceTree = "<group>"; };
 		C54359AD28A3A17C004C3252 /* Download_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download_ViewController.swift; sourceTree = "<group>"; };
 		C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar_ViewController.swift; sourceTree = "<group>"; };
+		C558ED6028CF24270034C318 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		C558ED6328CF2D570034C318 /* Search_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,7 @@
 			children = (
 				C54359A428A39EA7004C3252 /* Core */,
 				C543597428A39B9D004C3252 /* AppDelegate.swift */,
+				C558ED6028CF24270034C318 /* Config.xcconfig */,
 				C543597628A39B9D004C3252 /* SceneDelegate.swift */,
 				C543597828A39B9D004C3252 /* ViewController.swift */,
 				C543597D28A39BA1004C3252 /* Assets.xcassets */,
@@ -128,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				C543598B28A39BA2004C3252 /* NetflixAppTests.swift */,
+				C50219CB28D0645A0009FEE4 /* Home_ViewcontrollerTests.swift */,
 			);
 			path = NetflixAppTests;
 			sourceTree = "<group>";
@@ -148,6 +155,7 @@
 				C54359A928A3A156004C3252 /* Home_ViewController.swift */,
 				C54359AD28A3A17C004C3252 /* Download_ViewController.swift */,
 				C54359B528ACCED8004C3252 /* Navbar_ViewController.swift */,
+				C558ED6328CF2D570034C318 /* Search_ViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -286,6 +294,7 @@
 				C54359AE28A3A17C004C3252 /* Download_ViewController.swift in Sources */,
 				C543597928A39B9D004C3252 /* ViewController.swift in Sources */,
 				C543597528A39B9D004C3252 /* AppDelegate.swift in Sources */,
+				C558ED6428CF2D570034C318 /* Search_ViewController.swift in Sources */,
 				C54359AA28A3A156004C3252 /* Home_ViewController.swift in Sources */,
 				C543597728A39B9D004C3252 /* SceneDelegate.swift in Sources */,
 				C54359A628A39FF7004C3252 /* HomeTabBarViewControllerTableViewController.swift in Sources */,
@@ -299,6 +308,7 @@
 				C543598C28A39BA2004C3252 /* NetflixAppTests.swift in Sources */,
 				C54359AB28A3A156004C3252 /* Home_ViewController.swift in Sources */,
 				C54359AF28A3A17C004C3252 /* Download_ViewController.swift in Sources */,
+				C50219CC28D0645A0009FEE4 /* Home_ViewcontrollerTests.swift in Sources */,
 				C54359B728ACCED8004C3252 /* Navbar_ViewController.swift in Sources */,
 				C54359A728A39FF7004C3252 /* HomeTabBarViewControllerTableViewController.swift in Sources */,
 			);
@@ -346,6 +356,7 @@
 /* Begin XCBuildConfiguration section */
 		C543599928A39BA2004C3252 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C558ED6028CF24270034C318 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -394,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -406,6 +417,7 @@
 		};
 		C543599A28A39BA2004C3252 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C558ED6028CF24270034C318 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -448,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

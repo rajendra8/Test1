@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  NetflixApp
+//
+//  Created by Raj_VodaFone on 12/09/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+API_KEY = 12345
